@@ -1,0 +1,15 @@
+{
+  "name": "github-link",
+  "version": "1.0.0",
+  "description": "Shows a link to the current note on GitHub.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "devDependencies": {
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.3",
+    "obsidian": "latest"
+  }
+}
