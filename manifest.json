@@ -1,7 +1,7 @@
 {
   "id": "github-link",
   "name": "GitHub Link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.0.0",
   "description": "Shows a link to the current note on GitHub. Clicking the icon will copy the link. Clicking the word GitHub will open the page on GitHub. Will autoconfigure based on local .git folder. Plugin is vibe coded. Don't shoot me.",
   "author": "Frank Lämmer",
