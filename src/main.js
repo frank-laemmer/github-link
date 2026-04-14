@@ -80,6 +80,10 @@ class GitHubLinkPlugin extends Plugin {
     this.updateStatusBar();
   }
 
+  onunload() {
+    this.statusBarItem.empty();
+  }
+
   // -------------------------------------------------------------------------
 
   async resolveRepoUrl() {
