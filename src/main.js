@@ -67,6 +67,14 @@ class GitHubLinkPlugin extends Plugin {
       this.app.workspace.on('file-open', () => this.updateStatusBar())
     );
 
+    // Command: copy GitHub URL to clipboard
+    this.addCommand({
+      id: 'copy-github-url',
+      name: 'Copy GitHub URL to clipboard',
+      hotkeys: [{ modifiers: ['Mod', 'Shift'], key: 'L' }],
+      callback: () => this.copyUrlToClipboard(),
+    });
+
     // Command: open current file on GitHub
     this.addCommand({
       id: 'open-on-github',
