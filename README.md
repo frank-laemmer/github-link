@@ -1,4 +1,4 @@
-# GitHub Link
+# Obsidian GitHub Link
 
 An [Obsidian](https://obsidian.md) plugin that shows a status bar link to the current note on GitHub.
 
