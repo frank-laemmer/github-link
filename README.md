@@ -8,6 +8,7 @@ A small `⎈ GitHub` indicator appears in the status bar when you have a file op
 
 - **Click `⎈`** — copies the GitHub URL to your clipboard
 - **Click `GitHub`** — opens the file on GitHub in your browser
+- Use the keyboard shortcut SHIFT + COMMAND + L to copy the URL to clipboard buffer
 
 ## Configuration
 
